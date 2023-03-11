@@ -12,8 +12,11 @@ function calculate(num1, num2, operator) {
   else if(operator=="*"){
     return num1*num2;
   }
-  else{
+  else if (operator=="/"){
     return num1/num2;
+  }
+  else {
+    return null;
   }
  
 }
